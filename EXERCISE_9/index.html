@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejercicio 9</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <ul class="news"></ul>
+  <div class="searcher">
+    <h3 class="search__title">Busca tu nave o peli fav🙃rita</h3>
+    <input type="text" class="search__input">
+  </div>
+  <div class="palettes"></div>
+  <!--
+    Estamos haciendo muchas peticiones al servidor cada vez que alguien visita la web. Y hemos visto que muchas veces es una usuaria que ya la visitó antes. Vamos a cachear la respuesta de nuestro fetch en localStorage. La idea es que al cargar la página podamos consultar el LS, si ya están las paletas guardadas las pintamos directamente y nos ahorramos una petición. Si no hacemos nuestro fetch ;)
+  -->
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
